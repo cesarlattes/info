@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Open Sans',sans-serif;
+    color:#222;
+    background:#f2f4fa;
+}
+
+header{
+    background:#e7e2d7;
+    padding:20px 40px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.logo h1{
+    font-family:'Oswald',sans-serif;
+    font-size:2rem;
+    text-decoration:underline;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#e98615;
+}
+
+.container{
+    width:min(1000px,90%);
+    margin:auto;
+}
+
+.sobre{
+    padding:80px 20px;
+    background:#f2f4fa;
+}
+
+.sobre h2,
+.quem-foi h2{
+    font-family:Oswald;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.sobre p,
+.quem-foi p{
+    font-size:1.2rem;
+    line-height:1.8;
+    margin-bottom:20px;
+    text-align:justify;
+}
+
+.hero img{
+    width:100%;
+    display:block;
+}
+
+.quem-foi{
+    background:white;
+    padding:80px 20px;
+}
+
+.instagram{
+    background:#e6e7e8;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.instagram a{
+    font-family:Oswald;
+    font-size:2rem;
+    text-decoration:none;
+    color:black;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:white;
+}
