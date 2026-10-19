@@ -1,7 +1,10 @@
 :root{--ink:#0b1317;--ink2:#112027;--line:#24363e;--teal:#47d9cf;--tealD:#0d6d6a;--paper:#f0f3f2;--paper2:#e1e7e5;--text:#1b2a30;--mute:#9db0b7;--d:"Archivo",system-ui,sans-serif;--b:"Newsreader",Georgia,serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
+
 body{margin:0;background:var(--paper);color:var(--text);font:400 1.15rem/1.7 var(--b)}
+
 img,svg{display:block;max-width:100%}a{color:inherit}
+
 .wrap{max-width:1180px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 :focus-visible{outline:3px solid var(--teal);outline-offset:3px}
